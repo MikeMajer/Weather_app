@@ -1,0 +1,21 @@
+.form,h1{
+  text-align: center;
+}
+
+.form input, .form button{
+  margin:20px;
+  padding:10px 20px;
+  border: 2px solid grey;
+  background-color: #fff;
+  transition: .3s;
+}
+
+.form button {
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #000;
+  color:white;
+  border-color:black;
+}
